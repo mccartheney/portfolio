@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+:root {
+    --dark_blue : #16161A;
+    --purple: #6246EA;
+    --white: #FFFFFF;
+    --gray: #E5E5E5;
+}
+
+.tablet {display: none;}
+
+img {
+    width: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--dark_blue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header_header {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .header_nav a{
+    margin: 10px 30px;
+}
+
+header .header_nav a img{
+    width: 25px;
+}
+
+main .main_welcome {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main_welcome .main_welcome_image img{
+    width: 300px;
+}
+
+main .main_welcome .main_welcome_textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--white);
+}
+
+main .main_welcome .main_welcome_textContent h2 {
+    font-size: 32px;
+    color: var(--white);
+    font-weight: 550;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+
+main .main_welcome .main_welcome_textContent h2 span {
+    text-decoration: underline var(--purple);
+}
+
+main .main_welcome .main_welcome_textContent p {
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--gray);
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    width: 330px;
+}
+
+main .main_welcome .main_welcome_textContent button {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: var(--white);
+    border-bottom: var(--purple) 3px solid;
+}
+
+main .main_langs {
+    width: 330px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--white);
+}
+
+
+main .main_langs .main_langs_lang {
+    margin: 30px;
+    text-align: center;
+}
+
+main .main_langs .main_langs_lang h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    color: var(--white);
+}
+
+main .main_langs .main_langs_lang p {
+    margin-top: 25px;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+main .main_projects {
+    padding-top: 30px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border-bottom: 1px solid var(--gray);
+}
+
+main .main_projects h3 {
+    color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+main .main_projects .main_projects_project .main_projects_project_image img{
+    width: 100%;
+}
+
+main .main_projects .main_projects_project .main_projects_project_textContent h4{
+    margin-top: 10px;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    height: 40px;
+    color: var(--white);
+}
+
+main .main_projects .main_projects_project .main_projects_project_textContent p {
+    font-size: 15px;
+    color: var(--gray);
+    font-family: 'lato', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+main .main_projects .main_projects_project .main_projects_project_textContent .main_projects_project_textContent_buttons button {
+    padding-bottom: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: var(--white);
+    border-bottom: var(--purple) 3px solid;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+}
+
+footer .footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--gray);
+}
+
+footer .footer_contact .footer_contact_textContent {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer_contact .footer_contact_textContent h3 {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
+}
+
+footer .footer_contact .footer_contact_textContent p {
+    margin-top: 20px; 
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--gray);
+    font-family: 'lato', sans-serif;
+}
+
+footer .footer_contact .footer_contact__form{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .footer_contact .footer_contact__form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    color: var(--gray);
+    font-family: 'lato', sans-serif;
+    border-bottom: 1px solid var(--purple);
+}
+
+footer .footer_contact .footer_contact__form button{
+    font-family: 'lato', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: var(--white);
+    border-bottom: var(--purple) 3px solid;
+}
+
+footer .footer_social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 32px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer_social_nav {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_social_nav img {
+    width: 25px;
+    margin-left: 20px;
+}
+
+@media (min-width : 768px) and (max-width :1024px) {
+    header {
+        width: 95%;
+        height: 80px;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+    
+    header .header_nav a {
+        margin: 10px 0px 10px 50px;
+    }
+
+    header .header_nav a img {
+        width: 30px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    main .main_welcome {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--white);
+    }
+
+    main .main_welcome .main_welcome_textContent {
+        border: none;
+        align-items: start !important;
+        justify-content: center;
+        margin-bottom: -50px !important;
+    }
+
+    main .main_welcome .main_welcome_textContent h2 {
+        font-size: 40px;
+        text-align: start;
+        line-height: 60px;
+    }
+
+    main .main_welcome .main_welcome_textContent p {
+        text-align: start;
+        width: 100%; 
+        font-size: 14px;
+          
+    }
+
+    main .main_welcome .main_welcome_textContent button {
+        margin: none;
+    }
+
+    main .main_welcome .main_welcome_image img {
+        width: 350px;
+    }
+
+    main .main_langs {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        justify-content: start;
+        width: 95%;
+    }
+
+    main .main_langs .main_langs_lang {
+        width: 50%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    main .main_langs .main_langs_lang h3 {
+        font-size: 40px;
+    }
+
+    main .main_projects {
+        margin-top: 20px;
+        width: 95%;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main .main_projects .main_projects_project {
+        width: 45%;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    footer .footer_contact{
+        flex-direction: row;
+    }
+
+    footer .footer_contact .footer_contact__form input{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    footer .footer_contact .footer_contact_textContent {
+        align-items: start;
+        width: 50%;
+    }
+}
