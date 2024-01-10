@@ -119,6 +119,15 @@ main .main_welcome .main_welcome_textContent button {
     border-bottom: var(--purple) 3px solid;
 }
 
+main .main_projects_header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    text-align: start;
+    margin-top: 30px;
+    width: 100%;
+    color: var(--white);
+}
+
 main .main_langs {
     width: 330px;
     padding-top: 20px;
@@ -291,7 +300,7 @@ footer .footer_social{
     margin-left: 20px;
 }
 
-@media (min-width : 768px) and (max-width :1024px) {
+@media (min-width : 768px){
     header {
         width: 95%;
         height: 80px;
@@ -354,7 +363,7 @@ footer .footer_social{
         flex-direction: row;
         flex-wrap: wrap !important;
         justify-content: start;
-        width: 95%;
+        width: 100%;
     }
 
     main .main_langs .main_langs_lang {
@@ -398,5 +407,73 @@ footer .footer_social{
     footer .footer_contact .footer_contact_textContent {
         align-items: start;
         width: 50%;
+    }
+}
+
+@media (min-width : 1024px) {
+    header {
+        width: 80vw;
+    }
+
+    main {
+        width: 80vw;
+    }
+
+    main .main_welcome .main_welcome_textContent h2 {
+        margin-bottom: 30px;
+        font-size: 50px;
+        text-align: start;
+        line-height: 60px;
+    }
+    
+    main .main_welcome .main_welcome_textContent p {
+        margin-bottom: 30px;
+        text-align: start;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    main .main_welcome .main_welcome_image img {
+        width: 500px;
+    }
+
+    main .main_langs {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        justify-content: start;
+    }
+
+    main .main_langs .main_langs_lang {
+        width: 33%;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    main .main_projects {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer {
+        width: 80vw;
+    }
+
+    footer .footer_contact .footer_contact__form {
+        margin-right: 50px;
+    }
+
+    footer .footer_contact .footer_contact_textContent p{
+        font-size: 16px;
+        line-height: 20px;
     }
 }
