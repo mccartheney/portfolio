@@ -10,9 +10,17 @@
 
 ### Screenshot
 
-![](./screenshot/desktop.png)
-![](./screenshot/mobile1.png)
-![](./screenshot/mobile2.png)
+Desktop
+![](./screenshots/desktop1.png)
+![](./screenshots/desktop2.png)
+![](./screenshots/desktop3.png)
+![](./screenshots/desktop4.png)
+
+Mobile
+![](./screenshots/mobile1.png)
+![](./screenshots/mobile2.png)
+![](./screenshots/mobile3.png)
+![](./screenshots/mobile4.png)
 
 
 ### Links
