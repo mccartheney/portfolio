@@ -23,6 +23,11 @@ Mobile
 ![](./screenshots/mobile3.png)
 ![](./screenshots/mobile4.png)
 
+### usage
+- Run make run-build to run app
+```bash
+make build-run
+```
 
 ### Links
 
